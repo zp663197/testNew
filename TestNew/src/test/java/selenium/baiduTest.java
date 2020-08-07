@@ -10,11 +10,11 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 public class baiduTest {
-private static WebDriver driver;
+private WebDriver driver;
 private static Map<String, Object> vars;
 static JavascriptExecutor js;
 @BeforeClass
-public  static void  setUp() {
+public  void  setUp() {
  System.setProperty("webdriver.firefox.bin","D:\\firefox\\firefox.exe");
  System.setProperty("webdriver.gecko.driver","D:\\firefox\\geckodriver.exe");
  driver = new FirefoxDriver();
