@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7691" started-at="2020-08-07T05:57:27Z" finished-at="2020-08-07T05:57:34Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7691" started-at="2020-08-07T05:57:27Z" finished-at="2020-08-07T05:57:34Z">
+      <class name="selenium.baiduTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:selenium.baiduTest@77cd7a0]" name="setUp" is-config="true" duration-ms="2670" started-at="2020-08-07T05:57:27Z" finished-at="2020-08-07T05:57:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:selenium.baiduTest@77cd7a0]" name="test1" duration-ms="4329" started-at="2020-08-07T05:57:29Z" finished-at="2020-08-07T05:57:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium.baiduTest@77cd7a0]" name="tearDown" is-config="true" duration-ms="678" started-at="2020-08-07T05:57:34Z" finished-at="2020-08-07T05:57:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- selenium.baiduTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
