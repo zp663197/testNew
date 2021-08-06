@@ -6,11 +6,12 @@
       <class name="selenium.baiduTest">
         <methods>
           <include name="setUp"/>
-          <include name="test1"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- selenium.baiduTest -->
       <class name="selenium.onlineTest">
         <methods>
+          <include name="doTest"/>
           <include name="before"/>
         </methods>
       </class> <!-- selenium.onlineTest -->

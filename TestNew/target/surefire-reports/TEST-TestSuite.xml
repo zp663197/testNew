@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="1" name="TestSuite" time="9.429" errors="0" skipped="2">
+<testsuite tests="3" failures="1" name="TestSuite" time="8.504" errors="0" skipped="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin"/>
-    <property name="java.vm.version" value="25.151-b12"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_271\jre\bin"/>
+    <property name="java.vm.version" value="25.271-b09"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="D:\project\TestNew"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\IdeaProjects\testNew\testNew\TestNew"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,10 +16,10 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="D:\project\TestNew"/>
-    <property name="java.runtime.version" value="1.8.0_151-b12"/>
+    <property name="user.dir" value="D:\IdeaProjects\testNew\testNew\TestNew"/>
+    <property name="java.runtime.version" value="1.8.0_271-b09"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\endorsed"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_271\jre\lib\endorsed"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.io.tmpdir" value="C:\Users\ZHANG~1.PEN\AppData\Local\Temp\"/>
     <property name="line.separator" value="
@@ -29,7 +29,7 @@
     <property name="os.name" value="Windows 10"/>
     <property name="classworlds.conf" value="D:\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="GBK"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_151\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.8.0_151/bin;C:\Program Files\Java\jdk1.8.0_151/bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_151\bin;C:\Program Files\Java\jdk1.8.0_151\jre\bin;D:\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;D:\apache-tomcat-9.0.37\apache-tomcat-9.0.37\lib;D:\apache-tomcat-9.0.37\apache-tomcat-9.0.37\lib\servlet-api.jar;D:\apache-tomcat-9.0.37\apache-tomcat-9.0.37\lib\jsp-api.jar;D:\Git\cmd;D:\nodejs\;C:\Users\zhang.peng84\AppData\Local\Microsoft\WindowsApps;D:\ztf;D:\notepad++\npp.7.8.8.bin.x64;D:\php\phpstudy_pro\Extensions\php\php7.3.4nts;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_271\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Python37\Scripts\;D:\Python37\;C:\Program Files\Java\jdk1.8.0_271\bin;C:\Program Files\Java\jdk1.8.0_271\jre\bin;D:\apache-jmeter-5.3\apache-jmeter-5.3\bin;D:\erl-23.2\bin;D:\Git\cmd;D:\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;% ANDROID_SDK_HOME%\platform-tools;% ANDROID_SDK_HOME%\tools;D:\Python37\Scripts\;D:\Python37\;C:\Users\zhang.peng84\AppData\Local\Microsoft\WindowsApps;D:\node-v12.12.0-win-x64\node-v12.12.0-win-x64;D:\MongoDB\bin;;."/>
     <property name="maven.conf" value="D:\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin\../conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
@@ -40,20 +40,20 @@
     <property name="user.timezone" value="Asia/Shanghai"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="java.specification.version" value="1.8"/>
-    <property name="file.encoding" value="UTF-8"/>
+    <property name="file.encoding" value="GBK"/>
     <property name="user.name" value="zhang.peng84"/>
     <property name="java.class.path" value="D:\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_151\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean package test"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_271\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="zh"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="1.8.0_151"/>
-    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
-    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_151\jre\classes"/>
+    <property name="java.version" value="1.8.0_271"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_271\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_271\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_271\jre\classes"/>
     <property name="sun.stderr.encoding" value="ms936"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="maven.home" value="D:\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin\.."/>
@@ -61,57 +61,27 @@
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="ms936"/>
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="selenium.baiduTest" name="setUp" time="7.439">
-    <failure message="拒绝访问。 (os error 5)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
-System info: host: &apos;L3914693A244&apos;, ip: &apos;10.3.120.60&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_151&apos;
-Driver info: driver.version: FirefoxDriver
-remote stacktrace: " type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 拒绝访问。 (os error 5)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
-System info: host: &apos;L3914693A244&apos;, ip: &apos;10.3.120.60&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_151&apos;
-Driver info: driver.version: FirefoxDriver
-remote stacktrace: 
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
-	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
-	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
-	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
-	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+  <testcase classname="selenium.baiduTest" name="test1" time="3.885"/>
+  <testcase classname="selenium.onlineTest" name="before" time="4.619">
+    <failure message="Specified firefox binary location does not exist or is not a real file: D:\firefox\firefox.exe" type="java.lang.IllegalStateException">java.lang.IllegalStateException: Specified firefox binary location does not exist or is not a real file: D:\firefox\firefox.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:504)
+	at org.openqa.selenium.firefox.Executable.&lt;init&gt;(Executable.java:43)
+	at org.openqa.selenium.firefox.FirefoxBinary.&lt;init&gt;(FirefoxBinary.java:123)
+	at org.openqa.selenium.firefox.FirefoxOptions$Binary.asBinary(FirefoxOptions.java:420)
+	at java.util.Optional.map(Optional.java:215)
+	at org.openqa.selenium.firefox.FirefoxOptions.getBinaryOrNull(FirefoxOptions.java:220)
+	at org.openqa.selenium.firefox.FirefoxOptions.getBinary(FirefoxOptions.java:216)
+	at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:187)
 	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:147)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)
-	at selenium.baiduTest.setUp(baiduTest.java:20)
+	at browser.Firefox.setUp(Firefox.java:27)
+	at selenium.onlineTest.before(onlineTest.java:21)
 </failure>
-    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@1175e2db
-</system-out>
-    <system-err>1605087204093	geckodriver	INFO	Listening on 127.0.0.1:4941
-1605087204588	mozrunner::runner	INFO	Running command: &quot;D:/firefox/firefox.exe&quot; &quot;--marionette&quot; &quot;-foreground&quot; &quot;-no-remote&quot; &quot;-profile&quot; &quot;C:\\Users\\ZHANG~1.PEN\\AppData\\Local\\Temp\\rust_mozprofileDdPWXa&quot;
-</system-err>
   </testcase>
-  <testcase classname="selenium.baiduTest" name="test1" time="0">
+  <testcase classname="selenium.onlineTest" name="doTest" time="0">
     <skipped/>
   </testcase>
-  <testcase classname="selenium.baiduTest" name="tearDown" time="0">
-    <skipped/>
-  </testcase>
-  <testcase classname="selenium.onlineTest" name="doTest" time="1.99"/>
 </testsuite>

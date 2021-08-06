@@ -30,21 +30,24 @@
       <groupId>BYD</groupId>
       <artifactId>selenium-java</artifactId>
       <version>1.0</version>
-      <scope>compile</scope>
+      <scope>system</scope>
+      <systemPath>D:\IdeaProjects\jars\client-combined-3.141.59.jar</systemPath>
     </dependency>
     
     <dependency>
       <groupId>BYD</groupId>
       <artifactId>selenium-java-sources</artifactId>
       <version>1.0</version>
-      <scope>compile</scope>
+      <scope>system</scope>
+      <systemPath>D:\IdeaProjects\jars\client-combined-3.141.59-sources.jar</systemPath>
     </dependency>
     
     <dependency>
       <groupId>BYD</groupId>
       <artifactId>selenium-java-standalone</artifactId>
       <version>1.0</version>
-      <scope>compile</scope>
+      <scope>system</scope>
+      <systemPath>D:\IdeaProjects\jars\selenium-server-standalone-3.141.59.jar</systemPath>
     </dependency>
     
     <dependency>
