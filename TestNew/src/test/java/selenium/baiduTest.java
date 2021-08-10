@@ -22,8 +22,8 @@ public  static void  setUp() {
  //js = (JavascriptExecutor) driver;
  //vars = new HashMap<String, Object>();
 
- System.setProperty("webdriver.chrome.bin","D:\\firefox\\firefox.exe");
- System.setProperty("webdriver.gecko.driver","C:\\Users\\byd_lenovo\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe");
+ System.setProperty("webdriver.chrome.bin","C:\\Users\\byd_lenovo\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe");
+ System.setProperty("webdriver.gecko.driver","C:\\Program Files\\Mozilla Firefox\\geckodriver\\geckodriver.exe");
  driver = new ChromeDriver();
  js = (JavascriptExecutor) driver;
 }
