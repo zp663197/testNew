@@ -7,13 +7,12 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.firefox.FirefoxProfile;
 
 public class Firefox {
-public WebDriver driver;
 
-	//public Firefox(){}
+	public WebDriver driver;
 	
 	public  WebDriver setUp() {
-		 System.setProperty("webdriver.firefox.bin","D:\\firefox\\firefox.exe");
-		 System.setProperty("webdriver.gecko.driver","D:\\firefox\\geckodriver.exe");
+		 System.setProperty("webdriver.firefox.bin","C:\\Program Files\\Mozilla Firefox\\firefox.exe");
+		 System.setProperty("webdriver.gecko.driver","C:\\Program Files\\Mozilla Firefox\\geckodriver\\geckodriver.exe");
 //		 System.setProperty("webdriver.firefox.marionette", "false");
 		 FirefoxOptions options = new FirefoxOptions();
 		 FirefoxProfile p =new FirefoxProfile();
@@ -24,7 +23,7 @@ public WebDriver driver;
 		 options.setLogLevel(FirefoxDriverLogLevel.FATAL);
 		 options.setAcceptInsecureCerts(true);
 //		 options.setHeadless(true);
-		 WebDriver driver = new FirefoxDriver(options);
+		 driver = new FirefoxDriver(options);
 		 return driver;
 		}
 	

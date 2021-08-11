@@ -2,7 +2,8 @@
 <suite name="Suite" parallel="false">
   <test name="test1">
     <classes>
-      <class name="selenium.baiduTest"/>
+      <class name="selenium.testChrome"/>
+      <class name="selenium.testFirefox"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
